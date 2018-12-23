@@ -37,7 +37,6 @@ test("coerce tests", function() {
 
   // Expected to be the valid.
   [
-    [semver.parse("1.2.3"), "1.2.3"],
     [".1", "1.0.0"],
     [".1.", "1.0.0"],
     ["..1", "1.0.0"],
