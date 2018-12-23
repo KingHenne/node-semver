@@ -4,12 +4,11 @@
   "description": "The semantic version parser used by npm.",
   "main": "semver.js",
   "scripts": {
-    "test": "tap test/*.js --cov -J",
-    "posttest": "standard bin/semver *.js **/*.js"
+    "test": "jest --coverage"
   },
   "devDependencies": {
-    "standard": "^12.0.1",
-    "tap": "^12.0.1"
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0"
   },
   "license": "ISC",
   "repository": "https://github.com/npm/node-semver",
